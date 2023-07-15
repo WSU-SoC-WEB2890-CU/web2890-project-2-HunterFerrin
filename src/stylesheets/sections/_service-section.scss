@@ -1,0 +1,39 @@
+@use '../custom' as *;
+
+.service-section {
+    background-color: $backCol;
+    color: white;
+    padding: 1rem;
+    padding-bottom: 5rem;
+
+    .card {
+        color: black;
+        border-radius: 40px;
+        height: 100%;
+        padding: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .col {
+        margin-top: 1rem;
+    }
+
+    .nav-button {
+        margin: auto;
+        margin-top: 2rem;
+        width: 20%;
+        padding: 1rem;
+        background-color: transparent;
+        color: white;
+        border: 3px solid white;
+        border-radius: 20px;
+        font-size: 1.3rem;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .nav-button:hover {
+        color: $hoverCol;
+        border: 3px solid $hoverCol;
+    }
+}

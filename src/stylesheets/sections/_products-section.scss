@@ -1,0 +1,23 @@
+@use '../custom' as *;
+
+.products-section {
+    background-color: $backCol;
+    padding-top: 2rem;
+
+    .col {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .card {
+        height: 100%;
+        border-radius: 30px;
+        text-align: center;
+    }
+
+    img {
+        width: 50%;
+        border-radius: 30px;
+        margin: auto;
+    }
+}

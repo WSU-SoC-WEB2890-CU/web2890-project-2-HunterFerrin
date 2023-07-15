@@ -1,0 +1,23 @@
+@use '../custom' as *;
+
+.contact-form {
+    padding-top: 3rem;
+    opacity: .8;
+
+    input {
+        width: 100%;
+        margin: auto;
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+
+    .message, .message-sub {
+        width: 100%;
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+
+    .message {
+        resize: none;
+    }
+}

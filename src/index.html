@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>WEB 2890 - Project 2</title>
+  <title>Home | C.B. Davis</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index,follow">
   <meta name="description" content="TODO: Project 2 ...">
@@ -13,16 +13,117 @@
 
 <body>
   <!-- Your HTML goes here -->
-  <h1 class="display-2 text-center my-5 py-5">
-    <span class="d-block py-5 mt-5">
-      <i class="bi bi-filetype-html text-primary"></i> / 
-      <i class="bi bi-filetype-css text-danger"></i> / 
-      <i class="bi bi-filetype-js text-success"></i>
-    </span>
-    
-    Project 2: A multiple-page project of your choosing.
-  </h1>
+  <nav class="navbar navbar-expand-lg menu shadow fixed-top">
+    <div class="container">
+      <a href="index.html" class="navbar-brand"><img src="images/CBD Logo Dark BG (300 DPI).png" alt="CBDavis logo" id="headimg"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbar-Nav" aria-expanded="false" aria-label="Toggle navigation"><h2><i class="bi bi-list"></i></h2>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="services.html" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="products.html" class="nav-link">Products</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
+  <!--Top Section-->
+  <section class="top-section mt-4 shadow">
+    <div class="container">
+      <div class="background">
+          <div class="row">
+            <h1 class="text-center">C.B. Davis Companies</h1>
+            <h2 class="text-center">Washington's Premiere Construction Material & Equipment Provider</h2>
+            <a class="nav-button" href="contact.html">Contact Us</a>
+          </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="service-section">
+    <div class="container">
+      <div class="row">
+        <h1 class="text-center">Our Services</h1>
+      </div>
+      <div class="row">
+        <div class="col col-lg-4 col-sm-12">
+          <div class="card">
+            <h1 class="text-center"><i class="bi bi-cone-striped"></i></h1>
+            <h2 class="text-center">Sales</h2>
+            <p>We provide all your equipment needs. From cones to Message Boards to signs, we have it or can get it. Give us a call to learn more.</p>
+          </div>
+        </div>
+        <div class="col col-lg-4 col-sm-12">
+          <div class="card">
+            <h1 class="text-center"><i class="bi bi-stoplights"></i></h1>
+            <h2 class="text-center">Rentals</h2>
+            <p>One time job? Don't have the storage space? We provide rentals on everything we offer. Contact us to schedule your rental today.</p>
+          </div>
+        </div>
+        <div class="col col-lg-4 col-sm-12">
+          <div class="card">
+            <h1 class="text-center"><i class="bi bi-tools"></i></h1>
+            <h2 class="text-center">Service</h2>
+            <p>Have a light out? We provide a repair and maintanence service. Give us a call to schedule a repair.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row"><a class="nav-button" href="services.html">Learn More</a></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="./images/CBDIcon.png" alt="">
+        </div>
+        <div class="col">
+          <h3>Social Media</h3>
+          <ul>
+            <li><a href="">FaceBook</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">LinkedIn</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>Helpful Links</h3>
+          <ul>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>Contact Us</h3>
+          <h5>info@cbdaviscompanies.com</h5>
+          <h5>509-404-0234</h5>
+      </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12">
+            <div class="footer-bottom__copyright">
+              &copy; C.B. Davis 2023 All rights reserved.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
   <script type="module" src="./javascripts/main.js"></script>
 </body>
 </html>
